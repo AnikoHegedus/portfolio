@@ -1,0 +1,30 @@
+header .container {
+  padding-top: 120px;
+  background-image: url("../img/prague.png");
+  /* background-image: url("../img/budapest.png");*/
+  transition: background-image 1.2s ease-in-out;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333333;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+header .container:hover {
+  background-image: url("../img/budapest.png");
+}
+.quote,
+.author {
+  text-align: right;
+  font-size: 1.6em;
+  font-family: 'Dancing Script', cursive;
+  padding-bottom: 0.5em;
+  margin-bottom: 0;
+  text-shadow: none;
+  color: black;
+}
+section {
+  padding-top: 40px;
+}
+header .intro-text .name {
+  text-transform: none;
+  font-size: 4em;
+}
